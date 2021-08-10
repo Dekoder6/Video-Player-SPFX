@@ -1,0 +1,30 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "6088f853-e2cf-4fb7-8865-1cddc7f36214",
+  "alias": "VideoPlayerWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart"
+  ],
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": {
+        "default": "Other"
+      },
+      "title": {
+        "default": "Video Player"
+      },
+      "description": {
+        "default": "Embed video with properties pane"
+      },
+      "officeFabricIconFontName": "Video",
+      "properties": {
+        "description": "Video Player"
+      }
+    }
+  ]
+}
